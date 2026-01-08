@@ -24,12 +24,13 @@ Automação usando **YouTube Data API v3** com Python. Este projeto coleta **IDs
 
 git clone https://github.com/seu-usuario/youtube-data-automation.gi
 cd youtube-data-automation
+  
 
 2. Crie e ative um ambiente virtual:
 
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+     python -m venv venv
+     source venv/bin/activate  # Linux/Mac
+     venv\Scripts\activate     # Windows
 
 3. Instale as dependências:
 
