@@ -55,7 +55,7 @@ Coloque seu `secrets.json` na raiz do projeto (não comite).
 python main.py
 ```
 
-## O script irá:
+## O script permite:
 
 - Abrir uma janela de autenticação local do Google: Inicia o fluxo OAuth para obter permissão do usuário.
 - Coletar todos os vídeos da playlist especificada: Percorre a playlist e coleta os IDs dos vídeos.
