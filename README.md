@@ -1,6 +1,6 @@
 # YouTube Data Automation
 
- Automação usando **YouTube Data API v3** com Python. Este projeto coleta **IDs de vídeos, visualizações e estatísticas detalhadas** de playlists e canais.
+Automação usando **YouTube Data API v3** com Python. Este projeto coleta **IDs de vídeos, visualizações e estatísticas detalhadas** de playlists e canais.
 
 ## Funcionalidades
 
@@ -21,35 +21,35 @@ OBS: Arquivo com credenciais OAuth 2.0 (adicionar ao `.gitignore` para não vaza
 
 ## Instalação
 
-**1) Clone o repositório**
+**1. Clone o repositório**
 
 ```bash
 git clone https://github.com/seu-usuario/youtube-data-automation.git
 cd youtube-data-automation
 ```
 
-**2) Crie e ative um ambiente virtual**
+**2. Crie e ative um ambiente virtual**
 
 ```bash
 python -m venv venv
 
-- Ativar ambiente virtual
+Ativar ambiente virtual:
 
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 ```
 
-**3) Instale as dependências**
+**3. Instale as dependências**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**4) Adicione `secrets.json`**
+**4. Adicione `secrets.json`**
 
 Coloque seu `secrets.json` na raiz do projeto (não comite).
 
-**5) Execute o script**
+**5. Execute o script**
 
 ```bash
 python main.py
