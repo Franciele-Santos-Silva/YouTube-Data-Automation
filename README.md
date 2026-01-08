@@ -91,12 +91,13 @@ Este projeto coleta **IDs de vídeos, visualizações e estatísticas detalhadas
 
 1. Clone o repositório:
 
-```bash
+\```bash
 git clone https://github.com/seu-usuario/youtube-data-automation.git
 cd youtube-data-automation
-
+\```
 
 2. Pré-requisitos
 
-```bash
-  python main.py
+\```bash
+python main.py
+\```
