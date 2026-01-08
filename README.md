@@ -1,4 +1,4 @@
-<!-- # YouTube Data Automation
+# YouTube Data Automation
 
 Automação usando **YouTube Data API v3** com Python. Este projeto coleta **IDs de vídeos, visualizações e estatísticas detalhadas** de playlists e canais.
 
@@ -58,46 +58,4 @@ pip install -r requirements.txt
 -Exportar dados para CSV ou Google Sheets.
 -Criar dashboards interativos com Plotly ou Dash.
 -Automatizar alertas de crescimento de views ou comentários.
--Integrar com serviços de BI como Power BI ou Tableau. -->
-
-# YouTube Data Automation
-
-Automação usando **YouTube Data API v3** com Python.  
-Este projeto coleta **IDs de vídeos, visualizações e estatísticas detalhadas** de playlists e canais.
-
----
-
-## Funcionalidades
-
-- Geração de credenciais seguras via **OAuth 2.0** no Google Cloud.  
-- Coleta automática de **IDs de vídeos**, **views** e **estatísticas completas**.  
-- Suporte a **requisições em lote** para eficiência.  
-- Estrutura de código limpa com **list comprehensions**, **.join()** e boas práticas de Python.  
-- Autenticação **local** para testes seguros.  
-- Fácil integração com **dashboards, relatórios e sistemas de análise de conteúdo**.
-
----
-
-## Pré-requisitos
-
-- Python 3.9+  
-- Conta Google e acesso ao [Google Cloud Console](https://console.cloud.google.com/)  
-- YouTube Data API v3 habilitada  
-- Arquivo `secrets.json` com credenciais OAuth 2.0 (adicione ao `.gitignore` para não vazar no GitHub)
-
----
-
-## Instalação
-
-1. Clone o repositório:
-
-\```bash
-git clone https://github.com/seu-usuario/youtube-data-automation.git
-cd youtube-data-automation
-\```
-
-2. Pré-requisitos
-
-\```bash
-python main.py
-\```
+-Integrar com serviços de BI como Power BI ou Tableau.
