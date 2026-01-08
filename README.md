@@ -6,39 +6,12 @@ Automação usando **YouTube Data API v3** com Python. Este projeto coleta **IDs
 
 ---
 
-**Geração de credenciais seguras via OAuth 2.0**
-
-Configuração de OAuth 2.0 pelo Google Cloud para obter credenciais seguras.
-
----
-
+-Geração de credenciais seguras via OAuth 2.0
 **Coleta automática de IDs de vídeos e estatísticas**
-
-Raspagem e agregação automática de IDs, views e outras métricas dos vídeos.
-
----
-
 **Suporte a requisições em lote**
-
-Uso de chamadas em lote para reduzir latência e limites de requisições.
-
----
-
 **Código limpo e eficiente**
-
-Estrutura com list comprehensions, `.join()` e boas práticas de Python para legibilidade e performance.
-
----
-
 **Autenticação local para testes**
-
-Fluxo de autenticação local seguro para desenvolvimento e testes.
-
----
-
 **Integração com dashboards e relatórios**
-
-Fácil integração com ferramentas de visualização e análise (CSV, Google Sheets, BI).
 
 ## Pré-requisitos
 
@@ -77,8 +50,9 @@ cd youtube-data-automation
 
 ```bash
 python -m venv venv
+
 source venv/bin/activate  # Linux/Mac
-# on Windows: venv\Scripts\activate
+venv\Scripts\activate      # Windows
 ```
 
 ---
@@ -107,27 +81,17 @@ python main.py
 
 ---
 
-**Abrir uma janela de autenticação local do Google**
-
-Inicia o fluxo OAuth para obter permissão do usuário.
+**Abrir uma janela de autenticação local do Google**: Inicia o fluxo OAuth para obter permissão do usuário.
 
 ---
 
-**Coletar todos os vídeos da playlist especificada**
-
-Percorre a playlist e coleta os IDs dos vídeos.
+**Coletar todos os vídeos da playlist especificada**: Percorre a playlist e coleta os IDs dos vídeos.
 
 ---
 
-**Listar IDs de vídeos, views e outras estatísticas**
-
-Agrega e exibe métricas relevantes de cada vídeo.
+**Listar IDs de vídeos, views e outras estatísticas**: Agrega e exibe métricas relevantes de cada vídeo.
 
 ---
-
-**Exportar resultados (opcional)**
-
-Opções para exibir no terminal ou exportar para CSV/Google Sheets.
 
 ---
 
@@ -145,23 +109,14 @@ Opções para exibir no terminal ou exportar para CSV/Google Sheets.
 
 **Exportar dados para CSV ou Google Sheets**
 
-Adicionar opções nativas de exportação para integração com planilhas.
-
 ---
 
 **Criar dashboards interativos com Plotly ou Dash**
-
-Visualizações interativas e relatórios em tempo real.
 
 ---
 
 **Automatizar alertas de crescimento**
 
-Alertas por e-mail/Slack quando vídeos apresentarem crescimento significativo.
-
 ---
 
 **Integração com serviços de BI (Power BI, Tableau)**
-
-Conectar saídas a ferramentas de BI para relatórios corporativos.
-
