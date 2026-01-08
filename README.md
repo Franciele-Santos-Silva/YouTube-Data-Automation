@@ -95,3 +95,8 @@ Este projeto coleta **IDs de vídeos, visualizações e estatísticas detalhadas
 git clone https://github.com/seu-usuario/youtube-data-automation.git
 cd youtube-data-automation
 
+
+2. Pré-requisitos
+
+```bash
+  python main.py
