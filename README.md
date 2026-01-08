@@ -4,26 +4,22 @@ Automação usando **YouTube Data API v3** com Python. Este projeto coleta **IDs
 
 ## Funcionalidades
 
-**Geração de credenciais seguras via OAuth 2.0**
-**Coleta automática de IDs de vídeos e estatísticas**
-**Suporte a requisições em lote**
-**Código limpo e eficiente**
-**Autenticação local para testes**
-**Integração com dashboards e relatórios**
+- Geração de credenciais seguras via OAuth 2.0
+- Coleta automática de IDs de vídeos e estatísticas
+- Suporte a requisições em lote
+- Código limpo e eficiente
+- Autenticação local para testes
+- Integração com dashboards e relatórios
 
 ## Pré-requisitos
 
----
-
-**Python 3.9+**
-**Conta Google e acesso ao Google Cloud Console**
-**Arquivo secrets.json**
+- Python 3.9+
+- Conta Google e acesso ao Google Cloud Console
+- Arquivo secrets.json
 
 OBS: Arquivo com credenciais OAuth 2.0 (adicionar ao `.gitignore` para não vazar no GitHub).
 
 ## Instalação
-
----
 
 **1) Clone o repositório**
 
@@ -31,8 +27,6 @@ OBS: Arquivo com credenciais OAuth 2.0 (adicionar ao `.gitignore` para não vaza
 git clone https://github.com/seu-usuario/youtube-data-automation.git
 cd youtube-data-automation
 ```
-
----
 
 **2) Crie e ative um ambiente virtual**
 
@@ -59,11 +53,11 @@ Coloque seu `secrets.json` na raiz do projeto (não comite).
 python main.py
 ```
 
-## O script irá
+**O script irá**
 
-**Abrir uma janela de autenticação local do Google**: Inicia o fluxo OAuth para obter permissão do usuário.
-**Coletar todos os vídeos da playlist especificada**: Percorre a playlist e coleta os IDs dos vídeos.
-**Listar IDs de vídeos, views e outras estatísticas**: Agrega e exibe métricas relevantes de cada vídeo.
+- Abrir uma janela de autenticação local do Google: Inicia o fluxo OAuth para obter permissão do usuário.
+- Coletar todos os vídeos da playlist especificada: Percorre a playlist e coleta os IDs dos vídeos.
+- Listar IDs de vídeos, views e outras estatísticas: Agrega e exibe métricas relevantes de cada vídeo.
 
 **Boas práticas implementadas**
 
@@ -75,7 +69,7 @@ python main.py
 
 ## Ideias de expansão
 
-**Exportar dados para CSV ou Google Sheets**
-**Criar dashboards interativos com Plotly ou Dash**
-**Automatizar alertas de crescimento**
-**Integração com serviços de BI (Power BI, Tableau)**
+- Exportar dados para CSV ou Google Sheets
+- Criar dashboards interativos com Plotly ou Dash
+- Automatizar alertas de crescimento
+- Integração com serviços de BI (Power BI, Tableau)
