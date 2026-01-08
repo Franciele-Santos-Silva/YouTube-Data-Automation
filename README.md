@@ -22,26 +22,25 @@ Automação usando **YouTube Data API v3** com Python. Este projeto coleta **IDs
 
 1. Clone o repositório:
 
-git clone https://github.com/seu-usuario/youtube-data-automation.gi
+git clone <https://github.com/seu-usuario/youtube-data-automation.gi>
 cd youtube-data-automation
-  
 
-2. Crie e ative um ambiente virtual:
+1. Crie e ative um ambiente virtual:
 
-     python -m venv venv
-     source venv/bin/activate  # Linux/Mac
-     venv\Scripts\activate     # Windows
+python -m venv venv
+source venv/bin/activate # Linux/Mac
+env\Scripts\activate # Windows
 
-3. Instale as dependências:
+1. Instale as dependências:
 
 pip install -r requirements.txt
 
-4. Adicione seu arquivo secrets.json na raiz do projeto (não comite no Git, já está no .gitignore).
+1. Adicione seu arquivo secrets.json na raiz do projeto (não comite no Git, já está no .gitignore).
 
-5. Execute o script:
-python main.py
+2. Execute o script:
+   python main.py
 
-## O script irá:
+## O script irá
 
 -Abrir uma janela de autenticação local do Google.
 -Coletar todos os vídeos da playlist especificada.
